@@ -1,0 +1,129 @@
+.navbar{
+    background-color:  rgb(11, 11, 11);
+    
+}
+.NavbarImage {
+    animation: slide-down 0.7s ease-in-out;
+  }
+  
+  @keyframes slide-down {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+  }
+  
+
+li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 150px;
+}
+.NavbarImage{
+    color: white;
+}
+.navItem{
+    border-radius:20px ;
+       
+}
+.iconHead{
+    background-color: black;
+}
+.footer{
+    background-color: rgba(87, 87, 87, 0.308);
+}
+.footerTwo{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.specify{
+    background-color: rgba(187, 172, 240, 0.87);  
+}
+
+/* .nav-link{
+   background-color: rgb(252, 250, 250);
+   color: black;
+} */
+
+/* .nav-link {
+    background-color: #222222;
+    color: #f8f9fa;
+    text-color: white;
+} */
+.nav-link{
+    background-color: rgb(253, 249, 249);
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+/* .nav-link::after{
+    background-color: rgb(8, 8, 8);
+    color: rgb(204, 186, 186);
+} */
+.btn-light {
+    color: #fdfcfc;
+    background-color: #000000;
+    /* border-color: #f9fafb;  */
+    border:none
+   
+}
+.btn-light:hover{
+    border-color: rgb(92, 92, 92);
+    
+}
+
+.text-light{
+    color: #b6b4b4!important;
+    /* padding-left: 45px;
+    padding-right: 45px; */
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+     */
+     /* padding: 8px; */
+}
+.text-light:focus{
+    color: #000000!important;
+    background-color: #fdfcfc;
+}
+
+ 
+ .mx-5{
+    font-size: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left:  15px!important;
+    margin-right:  15px!important;
+    
+} 
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+    color: white;
+}
+
+h3 {
+    font-size: 1.6875rem;
+    color: white;
+}
+
+.mt-3 {
+    margin-top: 1rem!important;
+    background-color: white;
+}
+
+/* .mt-5{
+    background-color: white;
+} */
+
+

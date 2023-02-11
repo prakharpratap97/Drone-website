@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    
+}
+.form-heading{
+  text-align: center;
+}
+.form-container {
+    position: absolute;
+    
+  }
+.form-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+   background: white;
+   opacity: 90%;
+   height: 95%;
+   /* width: 50%; */
+}
+@media only screen and (min-width: 600px) {
+    /* .form-container {
+      width: 50%;
+    } */
+    .form-overlay{
+        width: 35%;
+        
+      }
+}
+/* @media only screen and (min-width: 968px) {
+  
+    .form-overlay{
+        width: 40%;
+        
+      }
+} */
+
+
+
+
+  .map-container {
+    width: 100%;
+  }
+.send{
+    background-color: blue;
+}

@@ -1,0 +1,115 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .about-card {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    display: flex;
+  }
+  .about-card-body {
+  padding: 20px;
+  
+  display: flex;
+}
+
+.about-text{
+    flex:1;
+    max-width: 70%;
+    margin-right:20px;
+}
+
+.about-image{
+    flex:1;
+    align-self:center;
+    max-width: 30%;
+}
+
+  .about-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: default;
+    background-color: #0077c9;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  } 
+  
+  
+  .about-card-header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;}
+
+
+
+
+    
+.Turnkey-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .Turnkey-card {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+    display: flex;
+  }
+  .Turnkey-card-body {
+  padding: 20px;
+  
+  display: flex;
+}
+
+.Turnkey-text{
+    flex:1;
+    max-width: 70%;
+    margin-right:20px;
+}
+
+.Turnkey-image{
+    flex:1;
+    align-self:center;
+    max-width: 30%;
+}
+
+  .Turnkey-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    cursor: default;
+    background-color: #0077c9;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  } 
+  
+  
+  .Turnkey-card-header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;}
