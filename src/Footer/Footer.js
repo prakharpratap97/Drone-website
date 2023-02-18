@@ -72,14 +72,14 @@ function Footer() {
 
         <ul className="list-unstyled">
           <li>
-            {/* <a href="#!" className="text-white">hello@tropogo.com</a> */}
+            
             <a  className="text-blue-200 leading-relaxed" href="mailto:hello@tropogo.com" title="Send me an email">
             hello@tropogo.com
               </a>
           </li>
           <li>
-          <a className="leading-relaxed text-blue-200" href="tel:(+91) 7439324645" title="Give me a call">(+91) 7439324645</a>
-            {/* <a href="#!" className="text-white"></a> */}
+          <a className="leading-relaxed text-blue-200" href="tel:(+91) 7439324645" title="Give us a call">(+91) 7439324645</a>
+         
           </li>
         </ul>
       </div>
